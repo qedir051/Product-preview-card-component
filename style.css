@@ -1,0 +1,76 @@
+.attribution {
+     font-size: 11px; text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+body{
+    background-color: darksalmon;
+    width: 1440px;
+}
+.Outside{
+    display: flex;
+    border-radius: 50%;
+    width: 40%;
+    height: 25%; 
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.Left{
+    display: flex;   
+}
+.image{
+    width: 300px;
+    height: 450px;
+}
+.Right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: bisque;
+    padding-left: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.RightTop{
+    font-size: medium;
+    
+
+}
+.RightTitle{
+    font-size: 19.5px;
+    font-weight: 900;
+}
+.RightMiddle{
+    font-size: 17px;
+}
+.RightPrices{
+    display: flex;
+    flex-direction: row;
+}
+.RightPrice1{
+    display: flex;
+    font-size: 20px;
+    color: green;
+}
+.RightPrice2{
+    display: flex;
+    margin-left: 15px;
+    position: relative;
+}
+.RightPrice2::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: black;
+  }
+  .RightBottom{
+    background-color: green;
+    margin: 0 auto;
+    padding: 10px 80px 10px 80px;
+    border-radius: 12%;
+  }
